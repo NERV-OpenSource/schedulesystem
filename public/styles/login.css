@@ -8,14 +8,16 @@
 }
 
 .container_middle{
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    max-width: 40em;
+    min-width: 20em;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
+<<<<<<< Updated upstream
 .container_login{
     width: 100%;
     max-width: 40em;
@@ -27,30 +29,35 @@
     justify-content: space-evenly;
 
 }
+=======
+>>>>>>> Stashed changes
 
-.container_login p{
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    font-weight: 900;
-    font-size: 40px;
-}
-
-.container_login form{
+.login{
     display: flex;
     flex-direction: column;
+<<<<<<< Updated upstream
     width: 80%;
     height: 50%;
    
+=======
+    width: 90%;
+    height: 100%;
+    background-color: rgba(134,144,218,0.8);
+>>>>>>> Stashed changes
     align-items: center;
     justify-content: center;
     border-radius: 30px;
 }
 
+<<<<<<< Updated upstream
 .container_login button{
     width: 82%;
     height: 40px;
+=======
+.login button{
+    width: 80%;
+    height: 50px;
+>>>>>>> Stashed changes
     margin-top: 50px;
 
     display: flex;
@@ -68,7 +75,6 @@
 #email{
     width: 80%;
     margin-bottom: 20px;
-    margin-top: -20px;
     height: 40px;
     padding-left: 10px;
     border-radius: 5px;
@@ -88,12 +94,13 @@
 
 .logo_login svg{
     width: 30vw;
-    height: 60%;
+    height: 125px;
     fill: #3ae8e1;
 }
 
 .logo_login{
-    height: 30%;
+    height: 50%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
